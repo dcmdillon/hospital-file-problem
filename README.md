@@ -11,3 +11,7 @@ https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items
 Requirements:
 - The job must be written in python and must run on a regular Windows or linux computer (i.e. there shouldn't be anything specific to Databricks, AWS, etc.)
 - Include a requirements.txt file if your job uses python packages that do not come with the default python install
+
+
+# Developer Note
+The problem does not specify whether or not to overwrite the existing files, or append new ones for each date, I went with overwrite.
